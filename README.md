@@ -6,6 +6,7 @@ conda env create -f environment.yml
 
 ###  Running Experiments
 Choose the appropriate experiment based on your data type:
+
 ✅ If you have images and corresponding ground truth latent variables, refer to the MNIST experiment:
 ```python
 python run_mnist.py --ground_truth
